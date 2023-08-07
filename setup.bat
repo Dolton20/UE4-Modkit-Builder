@@ -49,5 +49,5 @@ echo %editorPath% > Tools\user_settings\editor_directory.txt
 del UE4Project\*.uproject
 echo { "FileVersion": 3, "EngineAssociation": "%editorVersion%", "Category": "", "Description": "Unreal Engine Modkit", "Modules": [] } > UE4Project\%gameName%.uproject
 
-echo Before using configure Tools\user_settings\package_output.txt
-PAUSE
+start cmd /c "echo Before using configure Tools\user_settings\package_output.txt & PAUSE"
+del /s setup.bat >nul 2>nul
