@@ -3,7 +3,7 @@ SET /p "gameName=game name: "
 echo Example Unreal Engine Path: C:\Program Files\Epic Games\UE_4.22\Engine\Binaries\Win64
 echo Version must match game version
 SET /p "editorPath=Unreal Engine: "
-echo Example Version 4.22
+echo Example Version: 4.22
 SET /p "editorVersion=Unreal Engine Version: "
 
 :: Create Game Folder
